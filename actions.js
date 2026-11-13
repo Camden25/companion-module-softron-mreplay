@@ -207,6 +207,7 @@ export function getActions() {
 			},
 			{
 				type: 'textinput',
+				useVariables: true,
 				label: 'In Point (timecode or seconds)',
 				id: 'inPoint',
 				default: '0',
@@ -228,6 +229,7 @@ export function getActions() {
 			},
 			{
 				type: 'textinput',
+				useVariables: true,
 				label: 'Out Point (timecode or seconds)',
 				id: 'outPoint',
 				default: '0',
@@ -235,6 +237,7 @@ export function getActions() {
 			},
 			{
 				type: 'textinput',
+				useVariables: true,
 				label: 'Duration (timecode or seconds)',
 				id: 'duration',
 				default: '10',
@@ -336,6 +339,7 @@ export function getActions() {
 			},
 			{
 				type: 'textinput',
+				useVariables: true,
 				label: 'Position (timecode or seconds)',
 				id: 'position',
 				default: '0',
@@ -461,6 +465,7 @@ export function getActions() {
 			},
 			{
 				type: 'textinput',
+				useVariables: true,
 				label: 'Clip Index/ID/Name',
 				id: 'item',
 				default: '0',
@@ -487,6 +492,7 @@ export function getActions() {
 			},
 			{
 				type: 'textinput',
+				useVariables: true,
 				label: 'Clip Index/ID/Name',
 				id: 'item',
 				default: '0',
